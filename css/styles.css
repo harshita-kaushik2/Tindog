@@ -1,0 +1,183 @@
+body{
+  font-family: sans-serif;
+  font-weight:normal;
+}
+
+h1 {
+  font-family:"Montserrat";
+  font-size: 3.5rem;
+  line-height: 1.5;
+
+}
+
+h2 {
+  font-family:"Montserrat";
+  font-size: 3.5rem;
+  line-height: 1.5;
+
+}
+
+
+h3{
+ font-family: "Ubuntu";
+
+
+}
+
+p{
+  color: #8f8f8f;
+
+}
+
+#title{
+  background-color:#ff4c68;
+  color: #fff;
+}
+
+.container-fluid{
+  padding:3% 15%;
+  padding-bottom: 100px;
+
+}
+
+.icon{
+  color: #ef8172;
+  padding: 1rem;
+
+}
+
+.icon:hover{
+  color:#ff4c68;
+
+
+}
+
+
+.navbar{
+  padding-bottom: 4.5rem
+}
+
+.nav-item{
+  padding:0 18px;
+}
+
+.nav-link{
+  font-size:1.2rem;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+}
+
+
+.download-button{
+  margin: 5% 3% 4% 0;
+}
+
+.title-image{
+  width:20%;
+  transform: rotate(25deg);
+  position: absolute;
+  left:55%;
+}
+
+@media (max-width: 1028px) {
+  .title-image{
+    position: static;
+    transform: rotate(0deg);
+    width:20%;
+}
+  .top-heading{
+    text-align: center;
+}
+
+}
+
+/* Features-section */
+
+#features{
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+
+/*Testimonial section */
+
+#testimonials{
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+
+.testimonial-image{
+  width:10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item{
+  padding:7% 15%;
+}
+
+#pricing{
+  text-align: center;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+}
+
+#footer{
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.footer-icons{
+  margin:20px 30px;
+
+}
+
+.logo{
+  height: 45px;
+  font-size: 40px;
+
+}
+
+a:hover {
+  color: #AF7AB3;
+}
+
+.end-heading{
+  color: #fff;
+  font-family:"Montserrat";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  padding: 0% 15%;
+  padding-top: 50px;
+
+
+
+}
